@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Center the button */
+#button {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+/* Style the button itself */
+#button button {
+    font-size: 1.5em;       /* Increase font size */
+    padding: 15px 30px;     /* Increase padding for a larger button */
+    border-radius: 8px;     /* Slightly rounded corners */
+    background-color: #4CAF50; /* Set a background color (green) */
+    color: white;           /* White text */
+    border: none;           /* Remove border */
+    cursor: pointer;        /* Pointer cursor on hover */
+
+}
+/*  */
+
+.book-card {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #b9d3d6;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.book-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling the modal and form */
+
+/* Modal container */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* toggles form hiding or not */
+.bookSubmitForm {
+    display: none;
+}
